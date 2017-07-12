@@ -1,4 +1,77 @@
 ﻿@{
     ViewData["Title"] = "Buyer";
 }
-buyer
+@section styles{
+    <link href="~/css/seller.min.css" rel="stylesheet" />
+}
+@section scripts{
+    <script src="~/js/seller.js"></script>
+}
+<div id="wrap">
+    <div class="header">
+        <div class="container">
+            <div class="pull-left">
+                <div class="msg">
+                    <h1 class="sub">Desubra produtos</h1>
+                    <h1 class="sub">próximos a você!</h1>
+                </div>
+                <div class="email">
+                    <p>Deixe seu e-mail para não ficar por fora do lançamento</p>
+                    <div class="email-valid">
+                        <input id="email" type="text" placeholder="E-mail" value="" />
+                        <span class="validate">E-mail inválido.</span>
+                    </div>
+                    <button id="btn-submit" onclick="submit()">Me avise quando lançar</button>
+                </div>
+            </div>
+            <div class="pull-right">
+                <img src="~/images/phone_1.png" />
+            </div>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="container">
+            <h1 class="title">Olha só o que você pode fazer com nosso aplicativo!</h1>
+            <hr />
+            <div class="pull-left col-md-4">
+                <img src="~/images/phone_2.png" />
+            </div>
+            <div class="pull-right col-md-8">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="~/images/buyer/ic_marketplace.png" />
+                        <div class="icon-text">Comunidade Local</div>
+                        <div class="icon-sub">Encontre diversas lojas próximas a você rapidamente sem sair do lugar</div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="~/images/buyer/ic_fav.png" />
+                        <div class="icon-text">Favoritos</div>
+                        <div class="icon-sub">Sega suas lojas ou seus produtos favoritos</div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="~/images/buyer/ic_meet.png" />
+                        <div class="icon-text">Conecte-se</div>
+                        <div class="icon-sub">Conecte-se com os vendedores tire suas dúvidas e encontre o melhor produto para você</div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="~/images/buyer/ic_map.png" />
+                        <div class="icon-text">Do seu lado</div>
+                        <div class="icon-sub">Saiba quando os vendedores estão ao vivo do seu lado utilizando o nosso mapa em tempo real</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="social">
+        <div class="container">
+            <p class="social-sub">Nos encontre também nas redes sociais</p>
+            <div class="social-icon">
+                <img src="~/images/ic_twitter.png" />
+                <img src="~/images/ic_fb.png" />
+                <img src="~/images/ic_gplus.png" />
+            </div>
+        </div>
+    </div>
+</div>
