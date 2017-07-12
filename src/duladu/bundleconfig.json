@@ -1,0 +1,26 @@
+[
+  {
+    "outputFileName": "wwwroot/css/buyer.min.css",
+    "inputFiles": [
+      "wwwroot/css/buyer.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/seller.min.css",
+    "inputFiles": [
+      "wwwroot/css/seller.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/buyer.min.js",
+    "inputFiles": [
+      "wwwroot/js/buyer.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/seller.min.js",
+    "inputFiles": [
+      "wwwroot/js/seller.js"
+    ]
+  }
+]
