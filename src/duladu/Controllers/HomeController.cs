@@ -8,18 +8,21 @@ namespace duladu.Controllers
 {
     public class HomeController : Controller
     {
+        public IActionResult Index()
+        {
+            RedirectToActionResult redirectResult = new RedirectToActionResult("Seller", "Home", new { });
+            return redirectResult;
+        }
+
         [Route("Seller")]
         public IActionResult Seller()
         {
-            ViewData["Message"] = "Seller";
-
             return View();
         }
 
         [Route("Buyer")]
         public IActionResult Buyer()
         {
-            ViewData["Message"] = "Buyer";
 
             return View();
         }
