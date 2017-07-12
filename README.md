@@ -1,1 +1,5 @@
 # duladu-landing
+
+/Seller
+
+/Buyer
